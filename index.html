@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>강동자바라 알루미늄 방범창 견적계산기</title>
+  <meta name="description" content="강동자바라 알루미늄 방범창 예상 견적 계산기">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="wrap">
+    <section class="card">
+      <div class="brand">KANG DONG JABARA</div>
+      <h1>알루미늄 방범창<br>견적계산기</h1>
+      <p class="sub">가로·세로 사이즈를 선택하면 예상금액이 자동 계산됩니다.</p>
+
+      <div class="form">
+        <label for="width">가로 사이즈(cm)</label>
+        <select id="width"></select>
+
+        <label for="height">세로 사이즈(cm)</label>
+        <select id="height"></select>
+
+        <label class="check">
+          <input type="checkbox" id="assemble">
+          <span>조립요청 <b>+20,000원</b></span>
+        </label>
+      </div>
+
+      <div class="result">
+        <p>예상금액</p>
+        <strong id="total">14,000원</strong>
+        <small id="detail">가로 60cm / 세로 60cm / 조립요청 없음</small>
+      </div>
+
+      <div class="actions">
+        <button type="button" id="copyBtn">견적내용 복사</button>
+        <a id="talkBtn" href="https://talk.naver.com/" target="_blank" rel="noopener">톡톡 문의</a>
+        <a id="buyBtn" href="#" target="_blank" rel="noopener">구매페이지 이동</a>
+      </div>
+
+      <p class="notice">
+        ※ 본 계산기는 예상 견적용입니다. 실제 주문 시 카페24 또는 스마트스토어 옵션에서 동일한 사이즈를 선택해주세요.
+      </p>
+    </section>
+  </main>
+
+  <script src="prices.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
