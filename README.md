@@ -1,12 +1,12 @@
-# 강동자바라 견적센터 v1
-
-GitHub 저장소 `kd`에서 기존 파일을 이 파일들로 덮어쓰기 하세요.
+# 강동자바라 견적센터 v2
 
 업로드 파일:
 - index.html
 - style.css
 - script.js
 - prices.js
+- images/logo.png
+- images/product.png
 - README.md
 
 주소:
